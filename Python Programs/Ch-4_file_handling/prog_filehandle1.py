@@ -1,0 +1,5 @@
+out = open("output.txt","w")
+out.write("hello world \n")
+out.write("How are you?")
+out.close()
+open("output.txt").read()
